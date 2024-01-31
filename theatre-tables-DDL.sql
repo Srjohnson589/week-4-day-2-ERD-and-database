@@ -68,3 +68,17 @@
 --     FOREIGN KEY (item_name) REFERENCES concess_items (item_name)
 -- );
 
+-- I ran into an error when inserting type INT
+-- for the phone number, because they are out of range for
+-- the largest number an int can store
+
+-- I am changing the type to VARCHAR to store as a string
+
+-- ALTER TABLE customer
+-- ALTER COLUMN phone_number SET DATA TYPE VARCHAR(20);
+
+-- I forgot to add the seat_num to my ticket table
+
+-- ALTER TABLE ticket
+-- ADD seat_num INT;
+

@@ -1,0 +1,180 @@
+-- INSERT INTO concess_items (
+--     item_name,
+--     item_cost
+-- ) VALUES (
+--     'popcorn',
+--     3.99
+-- ), (
+--     'candy',
+--     2.99
+-- ),
+--     (
+--     'pop',
+--     2.99
+-- ),
+--     (
+--     'combo',
+--     6.99
+-- );
+
+-- INSERT INTO customer (
+--     first_name,
+--     last_name,
+--     phone_number
+-- ) VALUES (
+--     'Harry',
+--     'Potter',
+--     '2485442458'
+-- ), (
+--     'Hermione',
+--     'Granger',
+--     '888999000'
+-- ),
+--     (
+--     'Ron',
+--     'Weasley',
+--     '2993992459'
+-- ),
+--     (
+--     'Penelope',
+--     'Clearwater',
+--     '2883882869'
+-- ),
+--     (
+--     'Severus',
+--     'Snape',
+--     '6778442211'
+-- );
+
+-- INSERT INTO movie (
+--     movie_title,
+--     release_date,
+--     movie_len
+-- ) VALUES (
+--     'Barbie',
+--     '2023-06-06',
+--     '02:30:45'
+-- ), (
+--     'Oppenheimer',
+--     '2023-06-08',
+--     '05:30:45'
+-- ),
+--     (
+--     'Chicken Run 2',
+--     '2024-01-01',
+--     '01:20:33'
+-- ),
+--     (
+--     'Ninja Turtles',
+--     '2024-01-10',
+--     '02:01:34'
+-- );
+
+-- INSERT INTO ticket_order (
+--     customer_id,
+--     total_payment,
+--     payment_type,
+--     ticket_quantity
+-- ) VALUES (
+--     1,
+--     15.99,
+--     'VISA 4839',
+--     2
+-- ), (
+--     4,
+--     100.45,
+--     'cash',
+--     9
+-- );
+
+-- INSERT INTO ticket (
+--     movie_title,
+--     ticket_date,
+--     ticket_time,
+--     theatre_num,
+--     seat_num
+-- ) VALUES (
+--     'Oppenheimer',
+--     '2024-01-31',
+--     '03:00:00',
+--     3,
+--     4
+-- ), (
+--     'Barbie',
+--     '2024-01-30',
+--     '05:00:00',
+--     5,
+--     3
+-- );
+
+-- INSERT INTO concess_order (
+--     total_payment,
+--     payment_type,
+--     customer_id
+-- ) VALUES (
+--     10.99,
+--     'MC 4329',
+--     2
+-- ), (
+--     20.98,
+--     'cash',
+--     3
+-- );
+
+-- INSERT INTO con_order_items (
+--     c_order_id,
+--     item_name,
+--     item_quantity
+-- ) VALUES (
+--     1,
+--     'popcorn',
+--     2
+-- ), (
+--     2,
+--     'combo',
+--     3
+-- );
+
+-- INSERT INTO ticket (
+--     movie_title,
+--     ticket_date,
+--     ticket_time,
+--     theatre_num,
+--     seat_num
+-- ) VALUES (
+--     'Oppenheimer',
+--     '2024-01-31',
+--     '03:00:00',
+--     3,
+--     7
+-- ), (
+--     'Barbie',
+--     '2024-01-30',
+--     '05:00:00',
+--     5,
+--     8
+-- );
+
+
+-- INSERT INTO tick_order_items (
+--     t_order_id,
+--     ticket_id
+-- ) VALUES (
+--     1,
+--     3
+-- ), (
+--     2,
+--     4
+-- ), (
+--     2,
+--     5
+-- ), (
+--     2,
+--     6
+-- ), (
+--     2,
+--     7
+-- ), (
+--     2,
+--     8
+-- );
